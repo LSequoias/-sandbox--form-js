@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+
+    --primary: #9850ca;
+    --second:#e2ceff;
+
+}
+
+.wrap {
+}
+
+.form-contact {
+    background-color: var(--second);
+    border-left:12px solid var(--primary);
+    box-shadow:2px 3px 6px gray;
+}
+
+
+.cls1 {
+    background-color: var(--primary);
+}
+
+.btn, .btn > a {
+    color: white;
+}
+
+.btn > a {
+    text-decoration: none;
+}
+.btn.cls1 {
+    font-size: large;
+    font-weight: 600;
+}
+
+label {
+    /*height: 95px;*/
+}
